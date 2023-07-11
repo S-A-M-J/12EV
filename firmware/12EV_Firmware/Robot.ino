@@ -1,11 +1,8 @@
-// PyBotArm Robotic Arm scara robot project
-// JJROBOTS
-
-// STEPPERS MOTOR CONTROL AND KINEMATICS
-// SPEED, ACCELERATION AND POSITION CONTROL using M0 internal timers for best accuracy
-
-// We control the speed of the motors with interrupts (TC3,TC5 and TCC2) tested up to 32Khz.
-// The position,speed and acc of the motor is controlled at 1Khz (called in the main loop)
+///////////////////////////////////////////////////
+// Based on pybot robotic arm project from JJRobots
+// Ported and changed by S.A.M
+// Last updated on 11.07.23
+///////////////////////////////////////////////////
 
 // MOTOR1
 // TC5 interrupt

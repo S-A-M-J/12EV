@@ -1,6 +1,7 @@
-// PyBotArm Robotic Arm scara robot project 
-// JJROBOTS
-
+///////////////////////////////////////////////////
+// Based on pybot robotic arm project from JJRobots
+// Ported and changed by S.A.M
+///////////////////////////////////////////////////
 #include <stdint.h>
 #include <math.h>
 
@@ -21,8 +22,10 @@
 // Steps to mm for axis 3(Z) paso =
 #define M3_AXIS_STEPS_PER_UNIT 396
 
-//#define AXIS2_AXIS1_correction 33.0/62.0  // Correccion for robot structure (diference between reductions on each axis)
-#define AXIS2_AXIS1_correction 35.0/62.0  
+//UNCOMMENT GEAR USED HERE //Standard is 33 -  
+#define AXIS2_AXIS1_correction 33.0/62.0  // Correccion for robot structure (diference between reductions on each axis)
+//#define AXIS2_AXIS_correction 34.0/62.0
+//#define AXIS2_AXIS1_correction 35.0/62.0  
 
 #define M1_M2_STEP_FACTOR (M1_AXIS_STEPS_PER_UNIT/M2_AXIS_STEPS_PER_UNIT)
 

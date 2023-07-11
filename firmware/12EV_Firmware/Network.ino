@@ -1,8 +1,8 @@
-// PyBotArm Robotic Arm scara robot project 
-// JJROBOTS
-// License: GPL v2
-// Network functions (ESP module)
-// And message functions (messages from the APP)
+///////////////////////////////////////////////////
+// Based on pybot robotic arm project from JJRobots
+// Ported and changed by S.A.M
+// Last updated on 11.07.23
+///////////////////////////////////////////////////
 
 //BLE
 #include <BLEDevice.h>

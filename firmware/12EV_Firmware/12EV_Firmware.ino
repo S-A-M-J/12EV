@@ -1,34 +1,8 @@
-// JJROBOTS ROBOTIC ARM. SCARA ROBOT.
-// Author: Jose Julio & Juan pedro & Jonathan (JJROBOTS)
-// Hardware: New JJROBOTS DEVIA M0 Board with Arduino M0 & ESP8266
-// Date: 13/02/2018
-// Last updated: 20/09/2019
-// Version: 0.16
-// Project page : http://jjrobots.com/
-// License: Open Software GPL License v2
-
-// Hardware: JJROBOTS DEVIA M0 board
-// Board: Arduino/Genuine Zero (Native USB Port)
-
-// Support for laser range sensor VL53L0X on I2C port
-// You need to install the library: VL53L0X by Pololu
-
-// Motor1:
-// Enable: Arduino pin D11 (PA16)
-// Step: Arduino pin 5 (PA15)
-// Dir: Arduino pin 6 (PA20)
-
-// Motor2:
-// Enable: Arduino pin D11 (PA16)
-// Step: Arduino pin 7 (PA21)
-// Dir: Arduino pin 8 (PA06)
-
-// Motor3:
-// Enable: Arduino pin D11 (PA16)
-// Step: Arduino pin 9 (PA07)
-// Dir: Arduino pin 10 (PA18)
-
-// Mircrostepping : Arduino pin A4 (PA05) (default 1/16)
+///////////////////////////////////////////////////
+// Based on pybot robotic arm project from JJRobots
+// Ported and changed by S.A.M
+// Last updated on 11.07.23
+///////////////////////////////////////////////////
 
 #define VERSION "Scara v0.16"
 //#define DEBUG 0
